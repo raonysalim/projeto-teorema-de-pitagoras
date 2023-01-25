@@ -1,0 +1,173 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: rgb(148, 56, 62);
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+}
+
+
+.image{
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 33rem 0 0 33rem;
+    border-color: transparent transparent transparent #040f1b;}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+ .form{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 5rem;
+}
+
+
+
+
+input, label {
+    display: block;
+    width: 8rem;
+    height: 3rem;
+    margin: 1rem 2rem;
+}
+
+label{
+    color:rgb(204, 182, 60);
+    margin-bottom: -2rem;
+}
+
+input{
+    border-style: none;
+    border-radius: 0.5rem; 
+    text-align: center;
+}
+
+.form button {
+    position:absolute;
+    width: 7rem;
+    height: 2rem;
+    margin: 2rem 0 0 45rem
+}
+
+
+.containerImage{
+    margin: 5rem 0 0 10rem;
+    display: flex;
+    justify-content: center;
+}
+
+
+
+h1, .result{
+    text-align: center;
+}
+
+h1{
+    margin: 2rem 0 -4rem 0;
+    font-size: 2rem;
+}
+
+
+.result{
+    color: aliceblue;
+    margin: 2rem auto -4rem;
+    font-size: 2rem;
+}
+
+.disable{
+    display:none;
+}
+
+.erro{
+    position: absolute;
+    font-size: 3rem;
+}
+
+.cateto1, .cateto2, .hipotenusa{
+    font-size: 2rem;
+    color: aliceblue;
+}
+
+.cateto1{
+    position: absolute;
+    rotate: -90deg;
+    margin: 16rem 29.5rem 0 0 ;
+    z-index: 1;
+}
+
+
+.cateto2{
+    position: absolute;
+    margin: 30rem 6rem 0 0;
+    z-index: 1;
+}
+
+
+.hipotenusa{
+    position: absolute;
+    margin: 18rem 0 0 0;
+    rotate: 45deg;
+    z-index: 1;
+} 
+
+.black{
+    color: #040f1b;
+} 
+
+@media (max-width:700px){
+    h1{
+        margin: 0
+    }
+    
+    .form{
+        margin: 1rem 0 0 1rem;
+        flex-direction: row;
+    }
+
+    input, label{
+        margin: 0 0.8rem;
+        width: 6rem;
+    }
+    .form button{
+      position: absolute;
+      margin: 18rem 0 0 14rem;
+    }
+
+    .containerImage{
+        margin-left: 3rem;
+    }
+
+    .image{
+        border-width: 20rem 0 0 20rem;
+    }
+
+    .cateto1,.cateto2, .hipotenusa{
+        font-size: 1.5rem;
+    }
+
+    .cateto1{
+       margin: 9rem 16.5rem 0 0;
+    }
+
+    .cateto2{
+        margin: 18rem 4rem 0 0;
+    }
+
+    .hipotenusa{
+        margin: 10.5rem 0 0 0;
+    }
+
+
+}
