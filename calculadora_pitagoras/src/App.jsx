@@ -63,7 +63,7 @@ function App() {
     }
 
     axios
-      .post("http://localhost:5000", {
+      .post("https://api-calculadora-hoiw.onrender.com/", {
         data: {
           c1,
           c2,
