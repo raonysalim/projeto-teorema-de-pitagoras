@@ -16,13 +16,19 @@ A aplicação consiste em calcular o teorema de pitagoras a partir de dois numer
 
 ![image](https://user-images.githubusercontent.com/99310871/214692682-5631b2aa-9180-4aef-8a3e-f37d74affeac.png)
 
-
 ## Tecnologias Utilizadas
 
 #### Back end
-- Python 
+
+- Python
 - Flask
 
 #### Front end
+
 - ReactJS
-- Axios 
+- Axios
+
+#### Deploy
+
+- Vercel para Front end
+- Render para Back end

@@ -21,12 +21,12 @@ function App() {
   const [c2num, setC2num] = useState(0);
   const [disableNum, setDisableNum] = useState("black");
 
-  let count = 0;
-
   const onSubmit = ({ c1, c2, h }) => {
+    let count = 0;
     setResult("Calculando...");
     setBlockBtn("disable");
     setDisableNum("black");
+
     if (c1 <= 0) {
       c1 = "0";
       count++;
